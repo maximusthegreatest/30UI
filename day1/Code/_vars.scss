@@ -1,0 +1,8 @@
+$primary-color: #0c2943;
+$main-blue: #26547c;
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
